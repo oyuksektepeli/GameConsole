@@ -13,6 +13,7 @@ namespace GameConsole
         //"?"(question mark is shorthand of nullable types
         public int? DaysSinceLastLogin { get; set; }
         public DateTime? DateOfBirth { get; set; }
+        public bool? IsNoob { get; set; }
 
         public PlayerCharacter()
         {
